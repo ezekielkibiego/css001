@@ -16,6 +16,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .navbar-logo img{
@@ -97,3 +98,30 @@ body {
 
 /* Footer */
 
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 50px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.footer-container {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #f1c40f;
+}
+
+.footer p {
+    font-size: 14px;
+    line-height: 1.8;
+}
